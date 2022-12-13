@@ -74,7 +74,7 @@ color: #0F465E;
 .wrapper__bot{
     width: 464px;
     height: 146px;
-    margin:42px;
+    margin: 42px;
     display: flex;
     flex-direction: column;
 }
@@ -84,12 +84,48 @@ color: #0F465E;
     display: flex;
     align-items: flex-end;
     margin-bottom: 8px;
-    
 }
 .albumTable{
-    width: 464px;
-    height: 121px;
-    display: flex;
-    flex-direction: column;
-    background-color: #0F465E;
+    width: 100%;
+    padding-top: 8px;
+    border-spacing: 0px; 
+}
+
+.wrapper__album{
+    width: 100%;
+}
+
+.albumTable th{
+    height: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    background-color: #eeeeee;
+    padding-top: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px dashed gray;
+}
+.albumTable td{
+    height: 20px;
+    font-size: 10px;
+    color: #0f465e;
+    border-bottom: 1px dashed gray;
+    
+}
+
+.album-table-checkbox {
+    width: 5%;
+    text-align: center;
+}
+.album-table-number {
+    width: 10%;
+    text-align: center;
+}
+.album-table-song {
+    width: 45%;
+    text-align: left;
+}
+.album-table-artist {
+    width: 30%;
+    text-align: center;
 }

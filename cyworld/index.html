@@ -4,6 +4,7 @@
     <title>김민수의 미니 Home :: 사이좋은 사람들, 싸이월드</title>
     <link href="./styles/index.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3f58dd8361.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
     <!-- Relationship의 뜻 -->
 </head>
 <body>
@@ -66,8 +67,14 @@
                     </div>
 
                     <div class = "wrapper__right__body">
-                        <iframe src="./game.html"></iframe>
+                        <iframe id = "contentFrame" src="./home.html"></iframe>
                     </div>
+                </div>
+                <!-- Navigation  -->
+                <div class = "navigation">
+                    <div class = "navigation__item" id = "menuHome" onclick="menuHome()">홈</div>
+                    <div class = "navigation__item" id = "menuJukebox" onclick="menuJukebox()">쥬크박스</div>
+                    <div class = "navigation__item" id = "menuGame" onclick="menuGame()">게임</div>
                 </div>
             </div>
         </div>
